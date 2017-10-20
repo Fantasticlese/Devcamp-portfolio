@@ -28,7 +28,7 @@ class BlogsController < ApplicationController
 
     respond_to do |format|
       if @blog.save
-        format.html { redirect_to @blog, notice: 'Youre blog is groovy baby.' }
+        format.html { redirect_to @blog, notice: 'Your blog is groovy baby.' }
       else
         format.html { render :new }
       end
