@@ -1,0 +1,32 @@
+<nav class="navbar navbar-toggleable-md navbar navbar-light" style="background-color: #padding: 15px 0; background: #F0F2F0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #000C40, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #000C40, #F0F2F0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+">
+
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <h4 class= "text-white" >Josh Thorup</h4>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <h4 class= "text-black">Explore</h4>
+      <li class="nav-item active">
+        <%= link_to "Blogs", blogs_path %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "Portfolio", portfolios_path %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "About Me", about_me_path %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "Contact", contact_path %>
+      </li>
+      <li class="nav-item">
+        <%= login_helper %>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
